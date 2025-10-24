@@ -4,6 +4,7 @@ module Bbinary_counter#(
 parameter Nbits = 2
 ) 
 (
+	input clk,UpDown,PresetClear,LoadData,
 	input [Nbits-1:0] DataIn,
 	output[Nbits-1:0] Q,Qn
 );
