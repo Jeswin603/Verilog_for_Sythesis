@@ -1,0 +1,14 @@
+module modulo_n_counter
+#(parameter NBITS =2, UPTO=3)
+(
+	input clk,clear,
+	output [NBITS-1:0] Q,QBAR
+);
+
+reg[NBITS-1:0] counter;
+always @(posedge clk)
+	if(clear)
+		counter <= 0;
+	else
+		counter <= counter + 1 % UPTO;
+endmodule 
