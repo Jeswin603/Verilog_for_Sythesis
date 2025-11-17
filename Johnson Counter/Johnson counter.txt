@@ -1,0 +1,15 @@
+Johnson Counter is a shift type counter 
+
+example 3 bit 
+
+000
+001
+011
+111
+110
+100
+000
+
+
+If a msb of counter is 1 then 0 have to be shifted from lsb 
+and vice versa

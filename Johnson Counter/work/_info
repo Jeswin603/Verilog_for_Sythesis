@@ -1,0 +1,30 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/intelFPGA/18.1
+vjohnson_counter
+!s110 1763343409
+!i10b 1
+!s100 4OH:?Kf1[Uza:Q34zzFfQ0
+IM43<Q97MFfcVZM?1UN_E]3
+VDg1SIo80bB@j0V0VzS_@n1
+dC:/Users/User/Desktop/compress/M-TECH/S1/others/mtech/Verilog_for_sythesis/Johnson Counter
+w1763343399
+8johnson Counter.v
+Fjohnson Counter.v
+L0 1
+OV;L;10.5b;63
+r1
+!s85 0
+31
+!s108 1763343409.000000
+!s107 johnson Counter.v|
+!s90 -reportprogress|300|johnson Counter.v|
+!i113 1
+tCvgOpt 0

@@ -1,0 +1,22 @@
+module johnson_counter
+#(
+	parameter NBITS
+)
+(
+	input CLOCKJ,PRECLEAR,
+	output reg [1:NBITS] Q
+);
+
+always @(negedge PRECLEAR or negedge CLOCKJ)
+
+	if(!PRECLEAR)
+		Q <=0;
+	else begin
+		if(!Q[1])
+			Q <= {Q[1:NBITS-1],1'b1};
+		else 
+			Q <= {Q[1:NBITS-1],1,b0};
+	end
+
+	 
+endmodule
