@@ -1,1 +1,6 @@
+{C:/Users/User/Desktop/compress/M-TECH/S1/others/mtech/Verilog_for_sythesis/Johnson Counter/johnson Counter.v} {0 {vlog -work work -stats=none {C:\Users\User\Desktop\compress\M-TECH\S1\others\mtech\Verilog_for_sythesis\Johnson Counter\johnson Counter.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module johnson_counter
+** Error: C:\Users\User\Desktop\compress\M-TECH\S1\others\mtech\Verilog_for_sythesis\Johnson Counter\johnson Counter.v(18): (vlog-2730) Undefined variable: 'b0'.
 
+} {4.0 5.0} {}}

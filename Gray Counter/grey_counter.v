@@ -1,0 +1,26 @@
+module gray_counter
+#( parameter NBITS = 3)
+
+(input CLOCKG, CLEAR,
+output [NBITS:0] Q,QN);
+reg [NBITS :0] Counter,GrayCount;
+integer k;
+
+always @(posedge CLOCKG)
+	if (CLEAR)
+		Counter <= 0;
+	else 
+		Counter <= Counter +1;
+
+always @(Counter) begin
+
+	GrayCount[1] <= Counter[1];
+	
+	for(k=2; k<=NBITS; k=k+1)
+		GrayCount[k] = Counter[k-1] ^ Counter [k];
+end
+
+assign Q = GrayCount;
+assign QN =~GrayCount;
+
+endmodule

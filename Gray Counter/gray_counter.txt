@@ -1,0 +1,7 @@
+The first gray bit [the lsb] is the same as the fist binary bit
+
+the second gray bit is determined by xor the  second bit with first bit and so on, each pair of adjacent bits are xor ed to get the next binary bit
+
+
+
+ 
